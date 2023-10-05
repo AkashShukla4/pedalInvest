@@ -4,8 +4,6 @@ import React from "react";
 import Image from "next/image";
 import { Box, Button, Flex } from "@chakra-ui/react";
 
-import pedalInvestLogo from "@src/assets/pedalinvest-logo.png";
-
 const navWrapperStyles = {
     padding: "1rem 2rem",
     boxShadow: "0 0 2px 4px rgba(0, 0, 0, 0.1)",
@@ -44,7 +42,12 @@ export default function Navbar() {
         <Box {...navWrapperStyles}>
             <Flex {...navResWrapperStyles}>
                 <Box {...imageWrapperStyles}>
-                    <Image src={pedalInvestLogo} alt="logo" />
+                    <Image
+                        width={150}
+                        height={50}
+                        src="/pedalinvest-logo.png"
+                        alt="logo"
+                    />
                 </Box>
 
                 <Flex gap={10}>

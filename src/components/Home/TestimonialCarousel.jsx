@@ -5,18 +5,13 @@ import React from "react";
 import { Box, Button, Flex, Text, useMediaQuery } from "@chakra-ui/react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-import leftChevron from "@src/assets/chevron-left.svg";
-import rightChevron from "@src/assets/chevron-right-black.svg";
-import userImg from "@src/assets/user1.png";
-import deloitteImg from "@src/assets/deloitte.png";
-
 const items = [
     {
-        company: deloitteImg,
+        company: "/deloitte.png",
         comment:
             "“ Join the pitch call along with other potential investors or partners. This gives you the opportunity to gain a deeper understanding of the startup, its vision, and its team ”",
         username: "Paras Botadra",
-        userImg,
+        userImg: "/user1.png",
         userPosition: "CEO & FOUNDER, Unbox Innovation",
         color: "#E6F2FE",
     },

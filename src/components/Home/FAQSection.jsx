@@ -4,7 +4,6 @@ import { Box, Grid, Text, useMediaQuery } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 
-import faqImage from "@src/assets/faq.svg";
 import FAQAccordian from "@src/components/Home/FAQAccordian";
 
 export default function FAQSection() {
@@ -67,7 +66,7 @@ export default function FAQSection() {
             </Text>
 
             <Grid {...faqBoxWrapperStyles}>
-                <Image width={400} height={400} src={faqImage} alt="faq" />
+                <Image width={400} height={400} src="/faq.svg" alt="faq" />
                 <Box p={isMobile ? "0 30px" : "0 80px"}>
                     <FAQAccordian />
                 </Box>

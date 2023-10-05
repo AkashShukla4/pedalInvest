@@ -4,11 +4,6 @@ import React from "react";
 import Image from "next/image";
 import { Box, Flex, Text } from "@chakra-ui/react";
 
-import yourStoryImg from "@src/assets/your-story-red.svg";
-import etImg from "@src/assets/et-red.svg";
-import entrepreneurImg from "@src/assets/entrepreneur-india.svg";
-import toiImg from "@src/assets/toi-red.svg";
-
 const headlineSectionWrapperStyles = {
     maxWidth: "1320px",
     margin: "200px auto",
@@ -33,11 +28,11 @@ const blockStyles = {
 };
 
 const companyImages = [
-    yourStoryImg,
-    etImg,
-    entrepreneurImg,
-    entrepreneurImg,
-    toiImg,
+    "/your-story-red.svg",
+    "/et-red.svg",
+    "/entrepreneur-india.svg",
+    "/entrepreneur-india.svg",
+    "/toi-red.svg",
 ];
 
 export default function Headline() {

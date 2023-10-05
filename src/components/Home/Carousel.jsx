@@ -6,15 +6,12 @@ import React, { useEffect } from "react";
 import { Box, Button, useMediaQuery } from "@chakra-ui/react";
 import { motion, useAnimation } from "framer-motion";
 
-import img1 from "@src/assets/onboarded.jpeg";
-import img2 from "@src/assets/attend.jpeg";
-import img3 from "@src/assets/commitment.jpeg";
-import img4 from "@src/assets/money.jpeg";
-import macbook from "@src/assets/macbook.svg";
-import leftChevron from "@src/assets/chevron-left.svg";
-import rightChevron from "@src/assets/chevron-right-black.svg";
-
-const items = [img1, img2, img3, img4];
+const items = [
+    "/onboarded.jpeg",
+    "/attend.jpeg",
+    "/commitment.jpeg",
+    "/money.jpeg",
+];
 
 function Carousel({ currentIndex, setCurrentIndex }) {
     const controls = useAnimation();
@@ -94,10 +91,20 @@ function Carousel({ currentIndex, setCurrentIndex }) {
     return (
         <Box {...carouselContainer}>
             <Button {...button} onClick={prevItem}>
-                <Image width={24} height={24} src={leftChevron} alt="left" />
+                <Image
+                    width={24}
+                    height={24}
+                    src="/chevron-left.svg"
+                    alt="left"
+                />
             </Button>
             <Box {...macImageWrapperStyle}>
-                <Image src={macbook} alt="macbook" />
+                <Image
+                    width={900}
+                    height={800}
+                    src="/macbook.svg"
+                    alt="macbook"
+                />
             </Box>
             <motion.div
                 style={{ ...carousel }}
@@ -117,6 +124,8 @@ function Carousel({ currentIndex, setCurrentIndex }) {
                         }}
                     >
                         <Image
+                            height={390}
+                            width={613}
                             style={{
                                 height: "390px",
                                 width: "613px",
@@ -128,7 +137,12 @@ function Carousel({ currentIndex, setCurrentIndex }) {
                 ))}
             </motion.div>
             <Button {...button} onClick={nextItem}>
-                <Image width={24} height={24} src={rightChevron} alt="right" />
+                <Image
+                    width={24}
+                    height={24}
+                    src="/chevron-right-black.svg"
+                    alt="right"
+                />
             </Button>
         </Box>
     );

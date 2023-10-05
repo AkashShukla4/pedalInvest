@@ -13,8 +13,6 @@ import {
 
 import CTAButton from "@src/components/CTAButton";
 
-import heroImg from "@src/assets/hero-img.svg";
-
 export default function Hero() {
     const [isMobile] = useMediaQuery("(max-width: 512px)");
 
@@ -101,7 +99,13 @@ export default function Hero() {
                 backgroundImage='url("/mesh.svg")'
                 {...heroGraphicsSection}
             >
-                <Image {...heroImage} src={heroImg} alt="hero img" />
+                <Image
+                    width={500}
+                    height={500}
+                    {...heroImage}
+                    src="/hero-img.svg"
+                    alt="hero img"
+                />
             </GridItem>
         </Grid>
     );

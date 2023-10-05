@@ -6,9 +6,6 @@ import InvestorsBlock from "@src/components/Home/InvestorsBlock";
 import About from "@src/components/Home/AboutPedalInvest";
 import Portfolio from "@src/components/Home/Portfolio";
 
-import interestImage from "@src/assets/interest.svg";
-import riskImage from "@src/assets/risk.svg";
-import vettedImage from "@src/assets/vetted.svg";
 import HowItWorks from "@src/components/Home/HowItWorks";
 // import Testimonials from '@src/components/Home/Testimonials'
 import StartupFilterationProcess from "@src/components/Home/StartupFilterationProcess";
@@ -26,21 +23,21 @@ const aboutPedalInvestProps = {
             title: "Exponential Returns",
             description:
                 "Early-stage startup investment offers high return opportunities in long term",
-            image: interestImage,
+            image: "/interest.svg",
         },
         {
             id: "2",
             title: "Risk Mitigation",
             description:
                 "Listed opportunities are only the ones vetted and accelerated by PedalStart",
-            image: riskImage,
+            image: "/risk.svg",
         },
         {
             id: "3",
             title: "Portfolio Diversification",
             description:
                 "Opportunity to invest in a startup pool containing multiple startups with a minimum ticket size of INR 50k, hence diversifying the portfolio.",
-            image: vettedImage,
+            image: "/vetted.svg",
         },
     ],
 };

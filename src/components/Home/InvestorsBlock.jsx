@@ -3,11 +3,6 @@
 import React from "react";
 import { Flex, Box, useMediaQuery } from "@chakra-ui/react";
 
-import yourStoryImg from "@src/assets/your-story.svg";
-import etImg from "@src/assets/et.svg";
-import entrepreneurImg from "@src/assets/entrepreneur-india.svg";
-import apnImg from "@src/assets/apn.png";
-import toiImg from "@src/assets/toi.svg";
 import Image from "next/image";
 
 export default function InvestorsBlock() {
@@ -35,11 +30,11 @@ export default function InvestorsBlock() {
           };
 
     const companyImages = [
-        { img: yourStoryImg, width: "", height: "" },
-        { img: etImg, width: "", height: "" },
-        { img: entrepreneurImg, width: "", height: "" },
-        { img: apnImg, width: "200px", height: "30px" },
-        { img: toiImg, width: "", height: "" },
+        { img: "/your-story.svg", width: 100, height: 100 },
+        { img: "/et.svg", width: 100, height: 100 },
+        { img: "/entrepreneur-india.svg", width: 100, height: 100 },
+        { img: "/apn.png", width: 200, height: 30 },
+        { img: "/toi.svg", width: 100, height: 100 },
     ];
 
     return (
@@ -48,6 +43,8 @@ export default function InvestorsBlock() {
                 {companyImages.map((image, idx) => (
                     <Image
                         key={idx}
+                        width={image.width}
+                        height={image.height}
                         style={{
                             width: image.width,
                             height: image.height,

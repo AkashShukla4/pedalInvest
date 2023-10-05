@@ -4,8 +4,6 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "@chakra-ui/react";
 
-import rightChevron from "@src/assets/chevron-right.svg";
-
 const ctaButtonStyles = {
     height: "56px",
     bg: "#007BFF",
@@ -31,8 +29,10 @@ export default function CTAButton({ children, onClick }) {
             rightIcon={
                 <Image
                     {...rightChevronStyles}
-                    src={rightChevron}
+                    src="/chevron-right.svg"
                     alt="right chevron"
+                    width={20}
+                    height={20}
                 />
             }
             onClick={onClick}

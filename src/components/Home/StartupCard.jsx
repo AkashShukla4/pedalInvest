@@ -79,6 +79,8 @@ export default function StartupCard({ data }) {
             <Box {...operationalInfoStyle}>Operational</Box>
             <Flex justifyContent="center">
                 <Image
+                    width={data.imgWidth}
+                    height={data.imgHeight}
                     style={{
                         width: data.imgWidth,
                         height: data.imgHeight,

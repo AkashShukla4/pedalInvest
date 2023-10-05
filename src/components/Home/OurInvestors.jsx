@@ -4,25 +4,6 @@ import React from "react";
 import { Box, Button, Text, Flex, useMediaQuery } from "@chakra-ui/react";
 import Image from "next/image";
 
-import arrow from "@src/assets/arrow-right.svg";
-import mandeepImg from "@src/assets/mandeep.jpg";
-import rishavImg from "@src/assets/rishav.jpeg";
-import priyeshImg from "@src/assets/priyesh.jpeg";
-import dhruvImg from "@src/assets/dhruv.jpg";
-import neeravImg from "@src/assets/neerav.jpg";
-import varunImg from "@src/assets/varun.jpeg";
-import vikasImg from "@src/assets/vikas.jpeg";
-import alokImg from "@src/assets/alok.webp";
-import ramakrishnanImg from "@src/assets/ramakrishnan.jpg";
-import sandeepImg from "@src/assets/sandeep.jpg";
-import abhinavImg from "@src/assets/abhinav.jpeg";
-import sriniImg from "@src/assets/srini.jpeg";
-import gurpreetImg from "@src/assets/Gurpreet.jpg";
-import ankitImg from "@src/assets/ankit.jpeg";
-import mayankImg from "@src/assets/Mayank.jpeg";
-import vivekImg from "@src/assets/vivek.webp";
-import sarbojitImg from "@src/assets/Sarbojit.webp";
-
 import RunningContent from "@src/components/Home/RunningContent";
 
 export default function OurInvestors() {
@@ -107,92 +88,92 @@ export default function OurInvestors() {
           };
     const investors = [
         {
-            img: mandeepImg,
+            img: "/mandeep.jpg",
             name: "Mandeep Manocha",
             type: "Cashify",
         },
         {
-            img: rishavImg,
+            img: "/rishav.jpeg",
             name: "Rishav Agarwal",
             type: "Picxele",
         },
         {
-            img: priyeshImg,
+            img: "/priyesh.jpeg",
             name: "Priyesh Jaiswal",
             type: "Flipkart",
         },
         {
-            img: dhruvImg,
+            img: "/dhruv.jpg",
             name: "Dhruv Kumar",
             type: "Angel Investor",
         },
         {
-            img: neeravImg,
+            img: "/neerav.jpg",
             name: "Neerav Jain",
             type: "Angel Investor",
         },
         {
-            img: varunImg,
+            img: "/varun.jpeg",
             name: "Varun Miglani",
             type: "Angel Investor",
         },
         {
-            img: vikasImg,
+            img: "/vikas.jpeg",
             name: "Vikas Lakhani",
             type: "InstaOffice",
         },
         {
-            img: alokImg,
+            img: "/alok.webp",
             name: "Alok Kohli",
             type: "Pepsico",
         },
         {
-            img: ramakrishnanImg,
+            img: "/ramakrishnan.jpg",
             name: "M Ramakrishnan",
             type: "Investor",
         },
         {
-            img: sandeepImg,
+            img: "/sandeep.jpg",
             name: "Sandeep Nailwal",
             type: "Polygon",
         },
         {
-            img: abhinavImg,
+            img: "/abhinav.jpeg",
             name: "Abhinav Kumar",
             type: "Paytm",
         },
         {
-            img: alokImg,
+            img: "/alok.webp",
             name: "Nikhil Thomas",
             type: "Udaan",
         },
         {
-            img: sriniImg,
+            img: "/srini.jpeg",
             name: "Srini Sharma",
             type: "Trinkerr",
         },
         {
-            img: gurpreetImg,
+            img: "/Gurpreet.jpg",
             name: "Gurpreet Chugh",
             type: "Angel Investor",
         },
         {
-            img: ankitImg,
+            img: "/ankit.jpeg",
             name: "Ankit Tomar",
             type: "Bizongo",
         },
         {
-            img: mayankImg,
+            img: "/Mayank.jpeg",
             name: "Mayank Jain",
             type: "Snapdeal",
         },
         {
-            img: vivekImg,
+            img: "/vivek.webp",
             name: "Vivek Aggarwal",
             type: "Square Yards",
         },
         {
-            img: sarbojitImg,
+            img: "/Sarbojit.webp",
             name: "Sarbojit Mallick",
             type: "InstaHyre",
         },
@@ -211,9 +192,9 @@ export default function OurInvestors() {
                     variant="link"
                     rightIcon={
                         <Image
-                            width="22px"
-                            height="14px"
-                            src={arrow}
+                            width={22}
+                            height={14}
+                            src="/arrow-right.svg"
                             alt="arrow"
                         />
                     }

@@ -82,6 +82,8 @@ export default function AboutPedalInvest({ title, description, content }) {
                                 {...aboutImageStyles}
                                 src={info.image}
                                 alt={info.title}
+                                width={100}
+                                height={100}
                             />
                         </Flex>
                         <Text {...aboutTitle}>{info.title}</Text>

@@ -4,14 +4,6 @@ import React from "react";
 import Image from "next/image";
 import { Flex, Box, Text, useMediaQuery } from "@chakra-ui/react";
 
-import pedalStartLogo from "@src/assets/pedalstart.svg";
-import linkedin from "@src/assets/linkedin.svg";
-import facebook from "@src/assets/facebook.svg";
-import instagram from "@src/assets/instagram.svg";
-
-import phoneImg from "@src/assets/Phone.svg";
-import mailImg from "@src/assets/mail.svg";
-import locationImg from "@src/assets/Location.svg";
 import Link from "next/link";
 
 export default function Footer() {
@@ -92,9 +84,9 @@ export default function Footer() {
             <Flex {...footerWrapperStyles}>
                 <Box {...companyInfoWrapper}>
                     <Image
-                        src={pedalStartLogo}
-                        width="180px"
-                        height="34px"
+                        src="/pedalstart.svg"
+                        width={180}
+                        height={34}
                         alt="pedal start"
                     />
                     <Text {...pedalStartInfo}>
@@ -107,28 +99,28 @@ export default function Footer() {
                         <Link href="https://www.linkedin.com/company/pedalstart/?originalSubdomain=in">
                             <Image
                                 style={{ cursor: "pointer" }}
-                                src={linkedin}
+                                src="/linkedin.svg"
                                 alt="linkedin"
-                                width="24px"
-                                height="24px"
+                                width={24}
+                                height={24}
                             />
                         </Link>
                         <Link href="https://www.facebook.com/pedalstart?paipv=0&eav=AfYJ2nkTpbEa9f5rnsbzYWTPVKMCZMk6sACc2ToLkJuVMqHALFgr9UIJBROmzYwoSb0">
                             <Image
                                 style={{ cursor: "pointer" }}
-                                src={facebook}
+                                src="/facebook.svg"
                                 alt="facebook"
-                                width="24px"
-                                height="24px"
+                                width={24}
+                                height={24}
                             />
                         </Link>
                         <Link href="https://www.instagram.com/pedalstart/?hl=en">
                             <Image
                                 style={{ cursor: "pointer" }}
-                                src={instagram}
+                                src="/instagram.svg"
                                 alt="instagram"
-                                width="24px"
-                                height="24px"
+                                width={24}
+                                height={24}
                             />
                         </Link>
                     </Flex>
@@ -200,10 +192,10 @@ export default function Footer() {
                         <Text {...footerHeading}>COMPANY</Text>
                         <Flex gap="12px" alignItems="center">
                             <Image
-                                src={phoneImg}
+                                src="/Phone.svg"
                                 alt=""
-                                width="24px"
-                                height="24px"
+                                width={24}
+                                height={24}
                             />
                             <Link href="tel:9560346002" {...footerLastLink}>
                                 +91-9560346002
@@ -211,10 +203,10 @@ export default function Footer() {
                         </Flex>
                         <Flex gap="12px" alignItems="center">
                             <Image
-                                src={mailImg}
+                                src="/mail.svg"
                                 alt=""
-                                width="24px"
-                                height="24px"
+                                width={24}
+                                height={24}
                             />
                             <Link
                                 href="mailto:connect@pedalstart.com"
@@ -226,10 +218,10 @@ export default function Footer() {
                         <Flex gap="12px" alignItems="center">
                             <div style={{ width: 48 }}>
                                 <Image
-                                    src={locationImg}
+                                    src="/Location.svg"
                                     alt=""
-                                    width="24px"
-                                    height="24px"
+                                    width={24}
+                                    height={24}
                                 />
                             </div>
                             <Link

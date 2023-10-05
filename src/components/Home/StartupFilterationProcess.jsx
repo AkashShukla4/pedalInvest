@@ -4,16 +4,6 @@ import Image from "next/image";
 import { Text, Box, Flex, useMediaQuery } from "@chakra-ui/react";
 import React from "react";
 
-import process1Img from "@src/assets/process1.svg";
-import process2Img from "@src/assets/process2.svg";
-import process3Img from "@src/assets/process3.svg";
-import process4Img from "@src/assets/process4.svg";
-
-import number1Img from "@src/assets/number1.svg";
-import number2Img from "@src/assets/number2.svg";
-import number3Img from "@src/assets/number3.svg";
-import number4Img from "@src/assets/number4.svg";
-
 export default function StartupFilterationProcess() {
     const [isMobile] = useMediaQuery("(max-width: 512px)");
 
@@ -117,11 +107,11 @@ export default function StartupFilterationProcess() {
                 <Image
                     width={400}
                     height={400}
-                    src={process1Img}
+                    src="/process1.svg"
                     alt="process"
                 />
                 <Content
-                    icon={number1Img}
+                    icon="/number1.svg"
                     title="Wishlist"
                     description="PedalStart follows a wishlist-based model. Interested founders can join the wishlist, based on their priority we promote the startups for the selection process"
                 />
@@ -131,14 +121,14 @@ export default function StartupFilterationProcess() {
                 flexDirection={isMobile && "column-reverse"}
             >
                 <Content
-                    icon={number2Img}
+                    icon="/number2.svg"
                     title="Community"
                     description="After a 3-step selection process, startups get 3 months of exclusive access to the community. Community majorly focuses on bridging the knowledge gap of the startup founders. "
                 />
                 <Image
                     width={400}
                     height={400}
-                    src={process2Img}
+                    src="/process2.svg"
                     alt="process"
                 />
             </Flex>
@@ -146,11 +136,11 @@ export default function StartupFilterationProcess() {
                 <Image
                     width={400}
                     height={400}
-                    src={process3Img}
+                    src="/process3.svg"
                     alt="process"
                 />
                 <Content
-                    icon={number3Img}
+                    icon="/number3.svg"
                     title="Acceleration"
                     description="Based on the execution of the startups in the community, PedalStart selects the startups for acceleration, where we focus majorly on the growth of the startups with ex-founders, mentors, and investment support"
                 />
@@ -160,14 +150,14 @@ export default function StartupFilterationProcess() {
                 flexDirection={isMobile && "column-reverse"}
             >
                 <Content
-                    icon={number4Img}
+                    icon="/number4.svg"
                     title="Funding"
                     description="Once the startup reaches a stage of investments, PedalStart validates the model from future potential investors, post that PedalStart passes commitment from their side before opening up the opportunity to other investors(ensuring skin in the game)"
                 />
                 <Image
                     width={400}
                     height={400}
-                    src={process4Img}
+                    src="/process4.svg"
                     alt="process"
                 />
             </Flex>

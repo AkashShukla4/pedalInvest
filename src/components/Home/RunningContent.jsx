@@ -42,6 +42,8 @@ function RunningContent({ items, direction }) {
                 {...cardStyles}
             >
                 <Image
+                    width={80}
+                    height={80}
                     style={{
                         borderRadius: "10px 0 0 10px",
                         width: "80px",
