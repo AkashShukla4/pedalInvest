@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { Box, Flex, Text, useMediaQuery } from "@chakra-ui/react";
 

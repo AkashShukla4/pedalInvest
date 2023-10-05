@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Box, Button, Text, Flex, useMediaQuery } from "@chakra-ui/react";
 import Image from "next/image";

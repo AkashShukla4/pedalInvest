@@ -1,3 +1,5 @@
+"use client";
+
 import { Box, Text, useMediaQuery } from "@chakra-ui/react";
 import React from "react";
 
