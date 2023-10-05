@@ -2,18 +2,14 @@
 "use client";
 
 import React from "react";
+import Script from "next/script";
 import { Box } from "@chakra-ui/react";
+import { Providers } from "./provider";
+import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css/core";
+
 import Navbar from "@src/components/Navbar";
 import Footer from "@src/components/Footer";
-
-import Script from "next/script";
-
-import { Providers } from "./provider";
-
-// Default theme
-import "@splidejs/react-splide/css";
-// or only core styles
-import "@splidejs/react-splide/css/core";
 
 const boxStyles = {
     bg: "#fff",
