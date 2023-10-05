@@ -30,11 +30,11 @@ export default function InvestorsBlock() {
           };
 
     const companyImages = [
-        { img: "/your-story.svg", width: 100, height: 100 },
-        { img: "/et.svg", width: 100, height: 100 },
-        { img: "/entrepreneur-india.svg", width: 100, height: 100 },
+        { img: "/your-story.svg", width: 100, height: 35 },
+        { img: "/et.svg", width: 100, height: 35 },
+        { img: "/entrepreneur-india.svg", width: 120, height: 50 },
         { img: "/apn.png", width: 200, height: 30 },
-        { img: "/toi.svg", width: 100, height: 100 },
+        { img: "/toi.svg", width: 100, height: 30 },
     ];
 
     return (

@@ -100,7 +100,7 @@ function Carousel({ currentIndex, setCurrentIndex }) {
             </Button>
             <Box {...macImageWrapperStyle}>
                 <Image
-                    width={900}
+                    width={800}
                     height={800}
                     src="/macbook.svg"
                     alt="macbook"
