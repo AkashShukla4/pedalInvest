@@ -66,7 +66,7 @@ export default function FAQSection() {
             </Text>
 
             <Grid {...faqBoxWrapperStyles}>
-                <Image width={400} height={400} src="/faq.svg" alt="faq" />
+                <Image width={400} height={400} src="/FAQ.svg" alt="faq" />
                 <Box p={isMobile ? "0 30px" : "0 80px"}>
                     <FAQAccordian />
                 </Box>
