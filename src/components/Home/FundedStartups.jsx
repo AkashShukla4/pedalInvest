@@ -165,6 +165,7 @@ export default function FundedStartups() {
         width: "300px",
         height: "400px",
         padding: "1rem",
+        cursor: "not-allowed",
       };
 
   const CustomPrevArrow = (props) => (

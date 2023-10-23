@@ -101,7 +101,7 @@ export default function Footer() {
             >
               <Image
                 style={{ cursor: "pointer" }}
-                src="/linkedin.svg"
+                src="/linkedin.png"
                 alt="linkedin"
                 width={24}
                 height={24}
@@ -212,7 +212,7 @@ export default function Footer() {
             </Flex>
             <Flex gap="12px" alignItems="center">
               <div style={{ width: 48 }}>
-                <Image src="/Location.svg" alt="" width={24} height={24} />
+                <Image src="/location.png" alt="" width={30} height={30} />
               </div>
               <Link
                 target="_blank"
