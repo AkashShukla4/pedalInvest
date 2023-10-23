@@ -175,7 +175,7 @@ export default function Footer() {
             </Link> */}
             <Link
               target="_blank"
-              href="https://join.pedalstart.com/"
+              href="https://zfrmz.in/kYkutP4GZKrNGj21mtuW"
               {...footerLink}
             >
               Join Us
