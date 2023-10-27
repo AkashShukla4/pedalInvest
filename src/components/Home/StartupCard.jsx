@@ -15,12 +15,12 @@ export default function StartupCard({ data }) {
         background: "#fff",
         boxShadow: "0 0 7px 4px rgba(0, 0, 0, 0.1)",
         padding: "24px",
-        marginBottom: "50px",
+        marginBottom: "40px",
         // border: "1px solid black",
       }
     : {
         padding: "1px",
-        width: "85%",
+        width: "90%",
         boxShadow: "0 0 5px 2px rgba(0, 0, 0, 0.1)",
         borderRadius: "10px",
       };
@@ -30,7 +30,7 @@ export default function StartupCard({ data }) {
     color: "#DAFBE1",
     fontSize: "16px",
     fontWeight: 400,
-    width: "100px",
+    width: "120px",
     padding: "5px 10px",
     borderRadius: "5px",
   };
@@ -51,7 +51,7 @@ export default function StartupCard({ data }) {
     color: "rgba(0,0,0,0.6)",
     fontSize: "16px",
     fontWeight: 400,
-    margin: "10px 0 5px",
+    margin: "10px 0 50px 0",
   };
 
   const gridStyles = {

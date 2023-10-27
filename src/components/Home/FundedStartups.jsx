@@ -76,7 +76,7 @@ const startupCards = [
     imgHeight: 50,
     title: "Nema AI",
     description:
-      "NEMA AI is a startup based in India that uses neuroscience and artificial intelligence (AI) to provide solutions for education, employability, and marketing. The company aims to identify brain patterns to understand consumer behavior and provide insights to help businesses make data-driven decisions.",
+      "NEMA AI uses neuroscience and artificial intelligence to provide solutions for education, employability, and marketing. The company aims to identify brain patterns to understand consumer behavior and provide insights to help businesses make data-driven decisions.",
     link: "",
   },
   {
@@ -86,7 +86,7 @@ const startupCards = [
     imgHeight: 50,
     title: "Healspan",
     description:
-      "Healspan makes purpose-built cloud software(SaaS) for hospitals to file, track, and manage their health insurance claims. It is the simplest-to-use platform that works with all insurers and TPAs and has a host of convenience features that drastically reduce the time to file and payment settlement.",
+      "Healspan designs cloud software for hospitals to process, track, and manage insurance claims. This user-friendly platform works with all insurers and TPAs, offering features that greatly speed up filing and payment settlement.",
     link: "",
   },
   {
