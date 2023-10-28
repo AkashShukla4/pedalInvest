@@ -14,32 +14,32 @@ import FAQSection from "@src/components/Home/FAQSection";
 import FundedStartups from "@src/components/Home/FundedStartups";
 
 const aboutPedalInvestProps = {
-    title: "What Is PedalInvest",
-    description:
-        "A platform for retail investors to invest in early-stage startups with the potential of getting exponential returns. All the startups listed on the platform are the ones backed and accelerated by PedalStart.",
-    content: [
-        {
-            id: "1",
-            title: "Exponential Returns",
-            description:
-                "Early-stage startup investment offers high return opportunities in long term",
-            image: "/interest.svg",
-        },
-        {
-            id: "2",
-            title: "Risk Mitigation",
-            description:
-                "Listed opportunities are only the ones vetted and accelerated by PedalStart",
-            image: "/risk.svg",
-        },
-        {
-            id: "3",
-            title: "Portfolio Diversification",
-            description:
-                "Opportunity to invest in a startup pool containing multiple startups with a minimum ticket size of INR 50k, hence diversifying the portfolio.",
-            image: "/vetted.svg",
-        },
-    ],
+  title: "What Is PedalInvest",
+  description:
+    "A platform for retail investors to invest in early-stage startups with the potential of getting exponential returns. All the startups listed on the platform are the ones backed and accelerated by PedalStart.",
+  content: [
+    {
+      id: "1",
+      title: "Exponential Returns",
+      description:
+        "Early-stage startup investment offers high return opportunities in long term",
+      image: "/interest.svg",
+    },
+    {
+      id: "2",
+      title: "Risk Mitigation",
+      description:
+        "Listed opportunities are only the ones vetted and accelerated by PedalStart",
+      image: "/risk.svg",
+    },
+    {
+      id: "3",
+      title: "Portfolio Diversification",
+      description:
+        "Opportunity to invest in a startup pool containing multiple startups with a minimum ticket size of INR 50K, hence diversifying the portfolio.",
+      image: "/vetted.svg",
+    },
+  ],
 };
 
 // export const metadata = {
@@ -50,20 +50,20 @@ const aboutPedalInvestProps = {
 // };
 
 export default function Page() {
-    return (
-        <>
-            <Box>
-                <Hero />
-                <InvestorsBlock />
-                <About {...aboutPedalInvestProps} />
-                <FundedStartups />
-                <Portfolio />
-                <HowItWorks />
-                <StartupFilterationProcess />
-                <OurInvestors />
-                {/* <Testimonials /> */}
-                <FAQSection />
-            </Box>
-        </>
-    );
+  return (
+    <>
+      <Box>
+        <Hero />
+        <InvestorsBlock />
+        <About {...aboutPedalInvestProps} />
+        <FundedStartups />
+        <Portfolio />
+        <HowItWorks />
+        <StartupFilterationProcess />
+        <OurInvestors />
+        {/* <Testimonials /> */}
+        <FAQSection />
+      </Box>
+    </>
+  );
 }
