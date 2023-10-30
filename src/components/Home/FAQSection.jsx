@@ -62,9 +62,9 @@ export default function FAQSection() {
   return (
     <Box {...faqSectionWrapper}>
       <Text {...sectionHeading}>Frequently Asked Question</Text>
-      <Text {...sectionSubHeading}>
+      {/* <Text {...sectionSubHeading}>
         We&apos;re making headlines all over India
-      </Text>
+      </Text> */}
 
       <Grid {...faqBoxWrapperStyles}>
         <Image width={450} height={450} src="/FAQ.svg" alt="faq" />
