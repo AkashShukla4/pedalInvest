@@ -28,7 +28,7 @@ const AccordianData = [
     id: "3",
     title: "How is the money routed?",
     description:
-      "For ticket size less than 2LPA, the money is routed through a SVP, and if you are going for a bigger ticket size you get a direct captable access.",
+      "For ticket size less than ₹2LPA, the money is routed through a SVP, and if you are going for a bigger ticket size you get a direct captable access.",
   },
   {
     id: "4",
