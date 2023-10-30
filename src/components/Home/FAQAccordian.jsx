@@ -28,7 +28,7 @@ const AccordianData = [
     id: "3",
     title: "How is the money routed?",
     description:
-      "If you are investing through the pool, or going for a smaller ticket size(INR 50k) the money is routed through an SPV(LLP).",
+      "For ticket size less than 2LPA, the money is routed through a SVP, and if you are going for a bigger ticket size you get a direct captable access.",
   },
   {
     id: "4",
@@ -38,9 +38,9 @@ const AccordianData = [
   },
   {
     id: "5",
-    title: "What is the time duration?",
+    title: "How much time will it take for getting an exit?",
     description:
-      "It takes atleast 2-4 years of time to start getting exists from the early stage startups.",
+      "It takes atleast 3-5 years of time to start getting exists from the early stage startups.",
   },
 ];
 

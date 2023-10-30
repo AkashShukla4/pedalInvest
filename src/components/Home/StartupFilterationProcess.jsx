@@ -98,9 +98,8 @@ export default function StartupFilterationProcess() {
     <Box p={isMobile && "20px 35px"}>
       <Text {...sectionHeading}>Process Of Startup Filtration</Text>
       <Text {...sectionHeadingDescription}>
-        A platform for retail investors to invest in high-growth startups with
-        the potential to grow their wealth 10x. PedalStart accelerates these
-        startups, ensuring their high potential for success.
+        PedalStart follows a 3-step selection process before moving forward to
+        the investment decisions.
       </Text>
       <Flex {...processFlexWrapperStyles}>
         <Image width={400} height={400} src="/process1.svg" alt="process" />

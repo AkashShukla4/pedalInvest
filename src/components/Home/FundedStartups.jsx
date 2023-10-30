@@ -220,8 +220,8 @@ export default function FundedStartups() {
     slidesToScroll: 1,
     autoplay: autoplay,
     autoplaySpeed: 500,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+    // prevArrow: <CustomPrevArrow />,
+    // nextArrow: <CustomNextArrow />,
     beforeChange: (currentSlide, nextSlide) => {
       if (isHovered) {
         setAutoplay(false);

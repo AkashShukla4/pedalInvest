@@ -14,7 +14,7 @@ import FAQSection from "@src/components/Home/FAQSection";
 import FundedStartups from "@src/components/Home/FundedStartups";
 
 const aboutPedalInvestProps = {
-  title: "What Is PedalInvest",
+  title: "What Is PedalInvest ?",
   description:
     "A platform for retail investors to invest in early-stage startups with the potential of getting exponential returns. All the startups listed on the platform are the ones backed and accelerated by PedalStart.",
   content: [
