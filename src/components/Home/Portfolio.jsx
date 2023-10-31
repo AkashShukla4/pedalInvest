@@ -25,8 +25,9 @@ export default function Portfolio() {
 
   const portfolioInfoWrapper = isMobile
     ? {
-        // position: 'relative',
-        // marginTop: '50px'
+        position: "relative",
+        gap: "10px",
+        marginTop: "50px",
       }
     : {
         display: "flex",

@@ -129,8 +129,8 @@ export default function FundedStartups() {
 
   const fundedStartupsContainerStyles = isMobile
     ? {
-        // maxWidth: "512px",
-        // margin: "0 auto",
+        maxWidth: "512px",
+        margin: "0 auto",
         textAlign: "center",
         // marginBottom: "50px",
       }
