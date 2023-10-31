@@ -52,7 +52,13 @@ const aboutPedalInvestProps = {
 export default function Page() {
   return (
     <>
-      <Box>
+      <Box
+        style={{
+          maxWidth: "100%",
+          overflowX: "hidden",
+          margin: "0 auto",
+        }}
+      >
         <Hero />
         <InvestorsBlock />
         <About {...aboutPedalInvestProps} />
