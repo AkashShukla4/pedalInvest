@@ -3,6 +3,7 @@
 import React from "react";
 import { Box, Button, Text, Flex, useMediaQuery } from "@chakra-ui/react";
 import Image from "next/image";
+import Link from "next/link";
 
 import RunningContent from "@src/components/Home/RunningContent";
 
@@ -188,15 +189,22 @@ export default function OurInvestors() {
           platform, including major Tier-1 VCs like Prime Ventures, Waterbridge,
           LightSpeed, etc.
         </Text>
-        <Button
-          variant="link"
-          rightIcon={
-            <Image width={22} height={14} src="/arrow-right.svg" alt="arrow" />
-          }
-          {...buttonStyles}
-        >
-          View All Mentors
-        </Button>
+        <Link href="https://pedalstart.com/investor/index.html">
+          <Button
+            variant="link"
+            rightIcon={
+              <Image
+                width={22}
+                height={14}
+                src="/arrow-right.svg"
+                alt="arrow"
+              />
+            }
+            {...buttonStyles}
+          >
+            View All Mentors
+          </Button>
+        </Link>
       </Box>
       <Flex flexDirection="column" gap="32px">
         <RunningContent direction="ltr" items={investors} />
