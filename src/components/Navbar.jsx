@@ -5,11 +5,11 @@ import Image from "next/image";
 import { Box, Button, Flex } from "@chakra-ui/react";
 
 const navWrapperStyles = {
-  padding: "1rem 3rem",
+  padding: "1rem 2rem",
   background: "#fff",
   boxShadow: "0 0 2px 4px rgba(0, 0, 0, 0.1)",
   position: "fixed",
-  width: "100vw",
+  width: "100%",
   zIndex: "20",
   // right: "10px",
 };
@@ -19,7 +19,7 @@ const navResWrapperStyles = {
   alignItems: "center",
   // maxWidth: "1446px",
   width: "100%",
-  margin: "10 auto",
+  // margin: "10 auto",
 };
 
 const imageWrapperStyles = {

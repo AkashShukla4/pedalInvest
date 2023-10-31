@@ -19,7 +19,8 @@ export default function Portfolio() {
         zIndex: "23",
         position: "relative",
         overflowY: "scroll",
-        maxHeight: "550px",
+        maxHeight: "80vh",
+        cursor: "s-resize",
       };
 
   const portfolioInfoWrapper = isMobile
