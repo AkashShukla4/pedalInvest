@@ -19,7 +19,7 @@ export default function Portfolio() {
         zIndex: "23",
         position: "relative",
         overflowY: "scroll",
-        maxHeight: "80vh",
+        maxHeight: "650px",
         cursor: "s-resize",
       };
 
