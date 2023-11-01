@@ -56,7 +56,7 @@ const startupCards = [
     imgHeight: 50,
     title: "Procial",
     description:
-      "Pioneer Labs is developing the framework that will enable developers and companies to deploy customized rollups with inbuilt security and privacy for all use cases on EVM compatible chains.",
+      "Procial is creating a decentralized social media platform, providing users and brands with a unified social identity across the entire web 3 interface for content management. Leveraging blockchain technology, it enables users to seamlessly monitor and monetize their content across the network.",
     link: "",
   },
   {
