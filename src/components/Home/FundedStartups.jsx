@@ -56,7 +56,7 @@ const startupCards = [
     imgHeight: 50,
     title: "Procial",
     description:
-      "Procial is creating a decentralized social media platform, providing users and brands with a unified social identity across the entire web 3 interface for content management. Leveraging blockchain technology, it enables users to seamlessly monitor and monetize their content across the network.",
+      "Procial is constructing a decentralized social media platform, offering users and brands a unified online presence across the web 3 interface for content management. Powered by blockchain technology, it enables content monetization.",
     link: "",
   },
   {
@@ -165,7 +165,7 @@ export default function FundedStartups() {
         width: "300px",
         height: "400px",
         padding: "1rem",
-        cursor: "not-allowed",
+        cursor: "grab",
       };
 
   const CustomPrevArrow = (props) => (
@@ -225,7 +225,7 @@ export default function FundedStartups() {
     beforeChange: (currentSlide, nextSlide) => {
       if (isHovered) {
         setAutoplay(false);
-        cursor(pointer);
+        // cursor(pointer);
       }
     },
   };
