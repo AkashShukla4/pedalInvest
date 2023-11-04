@@ -33,7 +33,7 @@ export default function InvestorsBlock() {
       img: "/your-story.svg",
       width: 100,
       height: 35,
-      link: "https://yourstory.com/2022/11/startup-news-updates-daily-roundup-november-11-2022",
+      link: "https://yourstory.com/2023/11/startup-news-and-updates-november-3-2023",
     },
     {
       img: "/entrackr.png",
@@ -49,7 +49,7 @@ export default function InvestorsBlock() {
     },
     {
       img: "/apn.png",
-      width: 200,
+      width: 160,
       height: 25,
       link: "https://www.apnnews.com/pedalstart-launches-zero-to-one-cohort-for-early-stage-startup-founders-with-1-5cr-investment-commitment/",
     },
