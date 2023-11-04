@@ -30,10 +30,10 @@ export default function InvestorsBlock() {
 
   const companyImages = [
     {
-      img: "/your-story.svg",
-      width: 100,
-      height: 35,
-      link: "https://yourstory.com/2023/11/startup-news-and-updates-november-3-2023",
+      img: "/entrepreneur-india.svg",
+      width: 120,
+      height: 40,
+      link: "https://entm.ag/WofBvQ",
     },
     {
       img: "/entrackr.png",
@@ -42,22 +42,23 @@ export default function InvestorsBlock() {
       link: "https://entrackr.com/2023/07/pedalstart-leads-pre-seed-round-in-climate-tech-startup-newtral-io/ ",
     },
     {
-      img: "/entrepreneur-india.svg",
-      width: 120,
-      height: 40,
-      link: "https://entm.ag/WofBvQ",
-    },
-    {
-      img: "/apn.png",
-      width: 160,
-      height: 25,
-      link: "https://www.apnnews.com/pedalstart-launches-zero-to-one-cohort-for-early-stage-startup-founders-with-1-5cr-investment-commitment/",
+      img: "/your-story.svg",
+      width: 100,
+      height: 35,
+      link: "https://yourstory.com/2023/11/startup-news-and-updates-november-3-2023",
     },
     {
       img: "/toi.svg",
       width: 100,
       height: 25,
       link: "https://timesofindia.indiatimes.com/pedalstart-launches-an-internal-company-fund-of-2-5-cr-for-early-stagestartups/articleshow/91760833.cms",
+    },
+
+    {
+      img: "/apn.png",
+      width: 160,
+      height: 25,
+      link: "https://www.apnnews.com/pedalstart-launches-zero-to-one-cohort-for-early-stage-startup-founders-with-1-5cr-investment-commitment/",
     },
   ];
 

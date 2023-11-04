@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { Box, Button, Flex } from "@chakra-ui/react";
+import { Box, Button, Flex, useMediaQuery } from "@chakra-ui/react";
 
 const navWrapperStyles = {
   padding: "1rem 2rem",
@@ -38,12 +38,14 @@ const solidButtonStyles = {
   color: "#fff",
   borderRadius: 0,
   height: "45px",
+  width: "fit-content", // Adjust button width
   _hover: {
     bg: "#0267d3",
   },
 };
 
 export default function Navbar() {
+  const [isMobile] = useMediaQuery("(max-width: 512px)");
   return (
     <Box {...navWrapperStyles}>
       <Flex {...navResWrapperStyles}>
@@ -56,7 +58,7 @@ export default function Navbar() {
           />
         </Box>
 
-        <Flex gap={10}>
+        <Flex gap={10} direction={["column", "row"]} alignItems="center">
           <Button
             onClick={() =>
               (window.location.href = "https://zfrmz.in/kYkutP4GZKrNGj21mtuW")
@@ -67,13 +69,15 @@ export default function Navbar() {
             Join the Waitlist
           </Button>
 
-          <Button
-            onClick={() => (window.location.href = "https://pedalstart.com/")}
-            {...solidButtonStyles}
-            variant="solid"
-          >
-            Learn More
-          </Button>
+          {!isMobile && (
+            <Button
+              onClick={() => (window.location.href = "https://pedalstart.com/")}
+              {...solidButtonStyles}
+              variant="solid"
+            >
+              Learn More
+            </Button>
+          )}
         </Flex>
       </Flex>
     </Box>
