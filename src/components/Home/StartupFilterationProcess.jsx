@@ -125,7 +125,7 @@ export default function StartupFilterationProcess() {
         <Content
           icon="/number3.svg"
           title="Acceleration"
-          description="Based on the execution of the startups in the community, PedalStart selects the startups for acceleration, where we focus majorly on the growth of the startups with ex-founders, mentors, and investment support"
+          description="Based on the execution of the startups in the community, PedalStart selects the startups for acceleration, where we focus majorly on the growth of the startups with ex-founders, mentors, and investment support."
         />
       </Flex>
       <Flex
@@ -135,7 +135,7 @@ export default function StartupFilterationProcess() {
         <Content
           icon="/number4.svg"
           title="Funding"
-          description="Once the startup reaches a stage of investments, PedalStart validates the model from future potential investors, post that PedalStart passes commitment from their side before opening up the opportunity to other investors(ensuring skin in the game)"
+          description="Once the startup reaches a stage of investments, PedalStart validates the model from future potential investors, post that PedalStart passes commitment from their side before opening up the opportunity to other investors(ensuring skin in the game)."
         />
         <Image width={400} height={400} src="/process4.svg" alt="process" />
       </Flex>

@@ -4,7 +4,7 @@ import React from "react";
 import { Box, Flex, Grid, Text, useMediaQuery } from "@chakra-ui/react";
 import Image from "next/image";
 
-export default function StartupCard({ data }) {
+export default function StartupCard({ data, tag }) {
   const [isMobile] = useMediaQuery("(max-width: 512px)");
 
   const container = !isMobile
@@ -15,7 +15,9 @@ export default function StartupCard({ data }) {
         background: "#fff",
         boxShadow: "0 0 7px 4px rgba(0, 0, 0, 0.1)",
         padding: "24px",
-        marginBottom: "40px",
+        // marginBottom: "40px",
+        // display: "flex",
+        // flexDirection: "column",
         // border: "1px solid black",
       }
     : {
@@ -23,6 +25,8 @@ export default function StartupCard({ data }) {
         width: "90%",
         boxShadow: "0 0 5px 2px rgba(0, 0, 0, 0.1)",
         borderRadius: "10px",
+        // display: "flex",
+        // flexDirection: "column",
       };
 
   const operationalInfoStyle = {
@@ -30,28 +34,31 @@ export default function StartupCard({ data }) {
     color: "#DAFBE1",
     fontSize: "16px",
     fontWeight: 400,
-    width: "120px",
-    padding: "5px 10px",
+    width: "160px",
+    padding: "4px 3px",
     borderRadius: "5px",
+    // marginBottom: "15px",
   };
 
   const companyImageStyles = {
-    margin: "1px 0",
+    margin: "18px 0 5px 0",
     objectFit: "contain",
   };
 
   const titleStyles = {
-    color: "#000",
-    fontSize: "24px",
-    fontWeight: 700,
-    mt: "10px",
+    // color: "#000",
+    // fontSize: "24px",
+    // fontWeight: 700,
+    // mt: "12px",
+    display: "none",
   };
 
   const descriptionStyles = {
     color: "rgba(0,0,0,0.6)",
     fontSize: "16px",
     fontWeight: 400,
-    margin: "10px 0 50px 0",
+    margin: "0 0 40px 0",
+    padding: "10px",
   };
 
   const gridStyles = {
@@ -62,7 +69,7 @@ export default function StartupCard({ data }) {
 
   const gridItem = {
     padding: "16px 24px",
-    textAlign: "left",
+    textAlign: "center",
   };
 
   const gridItemTitle = {
@@ -76,9 +83,10 @@ export default function StartupCard({ data }) {
     fontSize: "24px",
     fontWeight: "600",
   };
+
   return (
     <Box {...container}>
-      <Box {...operationalInfoStyle}>Operational</Box>
+      <Box {...operationalInfoStyle}>{tag}</Box>
       <Flex justifyContent="center">
         <Image
           width={data.imgWidth}

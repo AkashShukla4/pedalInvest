@@ -8,6 +8,20 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const tagsData = [
+  "Climate Tech",
+  "Fintech",
+  "Health Tech",
+  "Ecommerce",
+  "Blockchain",
+  "Creator Economy",
+  "Health Tech",
+  "Insurance Tech",
+  "Agritech",
+  "Health Tech",
+  "Proptech",
+];
+
 const startupCards = [
   {
     id: 1,
@@ -22,7 +36,7 @@ const startupCards = [
   {
     id: 2,
     img: "/rupid.png",
-    imgWidth: 100,
+    imgWidth: 80,
     imgHeight: 50,
     title: "Rupid",
     description:
@@ -32,7 +46,7 @@ const startupCards = [
   {
     id: 3,
     img: "/betterspace.png",
-    imgWidth: 100,
+    imgWidth: 150,
     imgHeight: 50,
     title: "BetterSpace",
     description:
@@ -44,9 +58,9 @@ const startupCards = [
     img: "/ohlocal.webp",
     imgWidth: 100,
     imgHeight: 50,
-    title: "Ohlocal ",
+    title: "OhLocal ",
     description:
-      "India’s local marketplace connects brands with merchants, merchants with consumers and consumers with brands in their city via an AI-enabled smart real-time bidding platform.",
+      "OhLocal is India’s local marketplace that connects brands with merchants, merchants with consumers and consumers with brands in their city via an AI-enabled smart real-time bidding platform.",
     link: "",
   },
   {
@@ -82,7 +96,7 @@ const startupCards = [
   {
     id: 8,
     img: "/healspan.svg",
-    imgWidth: 100,
+    imgWidth: 150,
     imgHeight: 50,
     title: "Healspan",
     description:
@@ -102,7 +116,7 @@ const startupCards = [
   {
     id: 10,
     img: "/curomates.png",
-    imgWidth: 100,
+    imgWidth: 120,
     imgHeight: 50,
     title: "Curomates",
     description:
@@ -132,7 +146,7 @@ export default function FundedStartups() {
         maxWidth: "512px",
         margin: "0 auto",
         textAlign: "center",
-        // marginBottom: "50px",
+        marginBottom: "50px",
       }
     : {
         maxWidth: "1440px",
@@ -244,10 +258,10 @@ export default function FundedStartups() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {startupCards.map((startup) => (
+        {startupCards.map((startup, index) => (
           <div key={startup.id}>
             <div style={cardStyle}>
-              <StartupCard data={startup} />
+              <StartupCard data={startup} tag={tagsData[index]} />
             </div>
           </div>
         ))}
