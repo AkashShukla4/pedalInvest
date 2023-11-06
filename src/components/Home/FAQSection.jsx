@@ -54,7 +54,7 @@ export default function FAQSection() {
         alignItems: "center",
       }
     : {
-        margin: "100px 0",
+        margin: "100px 0 100px 50px",
         gridTemplateColumns: "1fr 1fr",
         alignItems: "center",
       };

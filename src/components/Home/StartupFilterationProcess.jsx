@@ -96,7 +96,7 @@ export default function StartupFilterationProcess() {
 
   return (
     <Box p={isMobile && "20px 35px"}>
-      <Text {...sectionHeading}>Process Of Startup Filtration</Text>
+      <Text {...sectionHeading}>Startup Filtration Process</Text>
       <Text {...sectionHeadingDescription}>
         PedalStart follows a 3-step selection process before moving forward to
         the investment decisions.
